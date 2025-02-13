@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width-device-width,initial-scale=1.0">
+    <title>www.junaidProf.com</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="assets/logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header">
+                <div class="headertext">
+                    <p>Web & App Developer</p>
+                    <h1>Hi,i'm <span>Junaid</span>.</h1>
+                    <h3>Creating with Purpose, Designing with Passion.</h3>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="assets/computer.jpg">
+                </div>
+                <div class="about-col2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, I'm Junaid, a Software Engineer in the making, currently diving into my 3rd year at Karachi
+                        University.
+                        I craft solutions with clean, efficient code, exploring everything from web to mobile
+                        development.
+                        This portfolio is where I showcase my passion for innovation and problem-solving through
+                        technology.
+                        Let’s build something great!</p>
+
+
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interface</li>
+                            <li><span>Web Developmwnt</span><br>HTML CSS JavaScript React js</li>
+                            <li><span>Programming Languages</span><br>C++,Python & Java </li>
+                            <li><span>App Development</span><br>Flutter</li>
+                        </ul>
+                    </div>
+
+
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Intermediate</span><br>Adamjee College</li>
+                            <li><span>Software Engineering</span><br>Karachi University</li>
+                            <li><span>Web 3.0 & Metaverse</span><br>GI-AIWMD</li>
+
+                        </ul>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!---------------------services-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="servicesList">
+                <div>
+                    <h2>Web App Development</h2>
+                    <p>Building functional and user-friendly web applications that may involve complex backend and
+                        frontend integration.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <h2>Frontend Development</h2>
+                    <p>Focusing on building the visual and interactive aspects of websites or web applications, such as
+                        using HTML, CSS, JavaScript, and frameworks like React or Vue.js.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2>Programming Languags</h2>
+                    <p>We specialize in JavaScript, Python, Dart,c++,Java and more to build scalable, high-performance
+                        applications. From web development to mobile apps, we deliver tailored solutions using the best
+                        technology for your project.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------portfolio----------------->
+    <div id="portfolio">
+        <div class="container">
+            <h2 class="sub-title">My work</h2>
+            <div class="mywork">
+                <div class="worklist">
+                    <div class="work">
+                        <img src="D:\portfolio\assets\netflix.png">
+                        <div class="layer">
+                            <h3>Netflix FrontEnd</h3>
+                            <p>Flutter</p>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="D:\portfolio\assets\musicplayer.png">
+                        <div class="layer">
+                            <h3>Music Player</h3>
+                            <p>reactjs</p>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="work">
+                        <img src="D:\portfolio\assets\ecommerce.png">
+                        <div class="layer">
+                            <h3>Ecommerce Application</h3>
+                            <p>Html css JavaScript</p>
+                        </div>
+                    </div>
+
+                </div>
+                <a href="#" class="btn">Click To See more</a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <h1 class="contact-title">Contact</h1>
+            <div class="row">
+                <div class="leftrow">
+                    <p>✉️:junaidahmmedsiddiqui012@gmail.com</p>
+                    <p>📞:03323542878</p>
+
+                    <a href="#" class="logo" target="_blank">ⓕ <span>: Facebook</span></a><br>
+                    <a href="https://help.instagram.com" class="logo" target="_blank">📸<span>: Instagram</span></a><br>
+                    <a href="#" class="logo" target="_blank">🐙<span>: GitHub</span></a><br>
+
+                    <a href="assets/caststudY.odt" download class="cv" download>Download CV</a>
+                </div>
+                <div class="rightrow">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" class="Name" name="Name" placeholder="Name">
+
+                        <input type="email" class="Email" name="Email" placeholder="Email">
+
+                        <textarea class="Message" name="Message" rows="6" placeholder="Enter your Message"></textarea>
+
+                        <button type="submit" class="submit">Submit</button>
+                    </form>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
